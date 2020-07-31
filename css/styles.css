@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .introduction{
    text-align: center;
 }
@@ -26,5 +31,132 @@ h2{
     padding-bottom: 150px;
     text-align: center;
     color: white;
+}
+
+p{
+    font-size: 16px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    display: inline;
+    padding-left: 120px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .features{
+      text-align: center;
+  }
+
+  .portfolio{
+      text-align: center;
+      padding-top: 50px;
+  }
 
 
+  .column2{
+    float: left;
+    width: 20%;
+    margin: 10px;
+  }
+
+  /*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 24.25%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
+.contact-us{
+    text-align: center;
+}
+
+input{
+    width: 30%;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+::placeholder{
+    color: white;
+    padding-top: 0;
+}
+
+.footer{
+    text-align: center;
+    padding: 50px;
+}
+
+#contentDesign{
+    color: black;
+    display: none;
+}
+
+#contentDes{
+    color: black;
+    display: none;
+}
+
+#contentDev{
+    color: black;
+    display: none;
+}
+
+#contentDevs{
+    color: black;
+    display: none;
+}
+
+#contentProj{
+    color: black;
+    display: none;
+}
+
+#contentProjs{
+    color: black;
+    display: none;
+}
