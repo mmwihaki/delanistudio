@@ -152,3 +152,80 @@ $(document).ready(function(){
   });
 });
 
+/*PROJECT MANAGEMENT*/
+/*Click on image - show content, hide image*/
+
+$(document).ready(function(){
+  $('#imageProj').on('click', function(){
+    $(this).hide();
+  });
+});
+
+$(document).ready(function(){
+  $('#imageProj').on('click', function(){
+    $('#textProj').hide();
+  });
+});
+
+$(document).ready(function(){
+  $('#imageProj').on('click', function(){
+    $('#contentProj').show();
+  });
+});
+
+$(document).ready(function(){
+  $('#imageProj').on('click', function(){
+    $('#contentProjs').show();
+  });
+});
+
+/*click on content heading - hide content, show image*/
+$(document).ready(function(){
+  $('#contentProj').on('click', function(){
+    $(this).hide();
+  });
+});
+
+$(document).ready(function(){
+  $('#contentProj').on('click', function(){
+    $('#contentProjs').hide();
+  });
+});
+
+$(document).ready(function(){
+  $('#contentProj').on('click', function(){
+    $('#imageProj').show();
+  });
+});
+
+$(document).ready(function(){
+  $('#contentProj').on('click', function(){
+    $('#textProj').show();
+  });
+});
+
+/*show image and heading by clicking on the description*/
+$(document).ready(function(){
+  $('#contentProjs').on('click', function(){
+    $('#imageProj').show();
+  });
+});
+
+$(document).ready(function(){
+  $('#contentProjs').on('click', function(){
+    $('#textProj').show();
+  });
+});
+
+$(document).ready(function(){
+  $('#contentProjs').on('click', function(){
+    $(this).hide();
+  });
+});
+
+$(document).ready(function(){
+  $('#contentProjs').on('click', function(){
+    $('#contentProj').hide();
+  });
+});
+
