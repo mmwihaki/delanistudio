@@ -229,3 +229,17 @@ $(document).ready(function(){
   });
 });
 
+/*HOVER
+
+$(document).ready(function(){
+  $('#wrap').mouseover(function(){
+    $('#work1').css('background-color', 'white');
+  });
+});
+*/
+
+$(document).ready(function(){
+  $('#hover').mouseenter(function(){
+    $('#hover').css('background-color', 'white');
+  });
+});
